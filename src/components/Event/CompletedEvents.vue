@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>Completed Events</h3>
     <div v-for="event in completedEvents" :key="event.id" class="item-box">
       <h4>{{ event.title }}</h4>
       <p>{{ event.description }}</p>
@@ -24,12 +25,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .item-box {
   display: inline-block;
   width: 300px;
   min-height: 150px;
-  background: #eee;
+  background: rgba(248, 215, 215, 0.87);
   padding: 2px 5px;
   margin: 10px;
 }
