@@ -1,5 +1,5 @@
-import { EventsService } from './DataResolver/EventsService';
-import * as types from './mutations-types';
+import { EventsService } from '../events/DataResolver/EventsService';
+import * as types from '../events/mutations-types';
 
 const actions = {
   loadUpcomingEvents: async ({ commit }: { commit: Function }, page: number) => {

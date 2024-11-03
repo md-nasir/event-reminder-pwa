@@ -7,7 +7,7 @@ const eventsStore: Module<any, any> = {
     namespaced: true,
     state: {
         upcomingEvents: [],
-        completedEvents: {}
+        completedEvents: []
     },
     getters,
     mutations,

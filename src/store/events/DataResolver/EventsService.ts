@@ -1,4 +1,4 @@
-import { EventInterface } from './DataResolver/EventsDataResolver';
+import { EventInterface } from '../../events/DataResolver/EventsDataResolver';
 import axios from 'axios';
 const endPoints = {
   'upcomingEvents': 'http://127.0.0.1:8000/api/v1/events/upcomming',

@@ -1,6 +1,6 @@
 export interface EventsStateInterface {
   upcomingEvents: EventInterface[];
-  completedEvents: EventInterface;
+  completedEvents: EventInterface[];
 }
 
 export interface EventInterface {

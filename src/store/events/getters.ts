@@ -1,7 +1,7 @@
 import {
   EventsStateInterface,
   EventInterface
-} from './DataResolver/EventsDataResolver';
+} from '../events/DataResolver/EventsDataResolver';
 
 const getters = {
   getUpcomingEvents: (state: EventsStateInterface): EventInterface[] => state.upcomingEvents,
